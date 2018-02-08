@@ -1,8 +1,8 @@
 {
-  "types": ["feat", "fix", "docs", "style", "refactor", "test", "chore", "revert"],
+  "types": ["Feat", "Fix", "Docs", "Style", "Refactor", "Test", "Chore", "Revert"],
   "scope": {
     "required": false,
-    "allowed": ["fe", "be"],
+    "allowed": ["FE", "BE"],
     "validate": true,
     "multiple": false
   },
