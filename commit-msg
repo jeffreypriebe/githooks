@@ -1,0 +1,5 @@
+#!/bin/sh
+
+RESULT=$(node .git/hooks/commit-msg-validate.js $1)
+
+exit $RESULT

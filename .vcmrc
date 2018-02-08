@@ -1,0 +1,11 @@
+{
+  "types": ["feat", "fix", "docs", "style", "refactor", "test", "chore", "revert"],
+  "scope": {
+    "required": false,
+    "allowed": ["fe", "be"],
+    "validate": true,
+    "multiple": false
+  },
+  "warnOnFail": false,
+  "maxSubjectLength": 80
+}
