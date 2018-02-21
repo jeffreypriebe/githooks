@@ -2,7 +2,7 @@
   "types": ["Feat", "Fix", "Docs", "Style", "Refactor", "Test", "Chore", "Revert"],
   "scope": {
     "required": false,
-    "allowed": ["FE", "BE"],
+    "allowed": ["FE", "BE", "Publish"],
     "validate": true,
     "multiple": false
   },
