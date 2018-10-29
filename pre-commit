@@ -1,0 +1,7 @@
+#!/bin/sh
+
+FILES_CHANGED=$(git diff --cached --name-only)
+
+RESULT=$(node .git/hooks/pre-commit.js $FILES_CHANGED)
+
+exit $RESULT
