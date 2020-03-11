@@ -1,5 +1,5 @@
 {
-  "types": ["Feat", "Fix", "Docs", "Style", "Refactor", "Test", "Chore", "Revert"],
+  "types": ["Feat", "Fix", "Docs", "Style", "Refactor", "Test", "Chore", "Revert", "Type"],
   "scope": {
     "required": false,
     "allowed": ["FE", "BE", "Publish"],
